@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.header__container{
+    background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='96' viewBox='0 0 60 96'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.16'%3E%3Cpath d='M36 10a6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-12 0 6 6 0 0 0-6-6 6 6 0 0 1-6-6V10a6 6 0 1 1 12 0 6 6 0 0 0 12 0zm24 78a6 6 0 0 1-6-6 6 6 0 0 0-6-6 6 6 0 0 1-6-6V58a6 6 0 1 1 12 0 6 6 0 0 0 6 6v24zM0 88V64a6 6 0 0 0 6-6 6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-6 6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+    background-color: #ffffff2a;
+    border-radius: 10px;
+}
+.nav{
+    margin-left: 150px;
+}
+body{
+    margin: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.header__ul{
+    display: flex;
+
+}
+.header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(0,212,255,1) 48%, rgba(9,9,121,1) 100%);
+    height: 54px;
+    box-shadow: rgb(255, 255, 255) 2px 2px 33px;
+    margin-bottom: 70px;
+}
+.python{
+    font-size: 30px;
+    background-color: rgba(226, 62, 247, 0.596);
+    border-radius: 20px;
+}
+.li__items{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #639ADA 1%, rgba(0,212,255,1) 48%, #639ADA 100%);
+    font-size: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(194, 194, 255) 1px 3px 4px;
+    margin-top: 20px;
+    transition: color 2s;
+    text-shadow: rgb(6, 0, 0) 1px 1px 1px;
+}
+.li__items:hover{
+    background-color: black;
+    color: rgb(0, 187, 255);
+    border-radius: 10px;
+}
+.li__link{
+    color: aliceblue;
+}
+.li__link:hover{
+    color: rgb(158, 237, 255);
+    text-shadow: white 1px 1px 3px;
+    box-shadow: white 1px 2px 23px;
+}
+.section{
+    margin-top: 10px;
+    box-shadow: white 1px 1px 33px;
+}
+.avatar{
+    width: 220px;
+    height: 180px;
+    border-radius: 30px;
+    transition: 2s;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: white 2px 2px 2px;
+}
+.ht{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.909) 1%, rgba(0, 213, 255, 0.753) 48%, rgba(9, 9, 121, 0.342) 100%);
+    box-shadow: black 1px 1px 1px;
+}
+.avatar:hover{
+    border-radius: 10px;
+}
+.title__main{
+    background: rgba(2, 0, 36, 0.306);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.281) 1%, rgba(0, 213, 255, 0.331) 48%, rgba(9, 9, 121, 0.486) 100%);
+    margin-left: 19px;
+    text-shadow: black 1px 1px 1px;
+    width: 200px;
+    border-radius: 2px;
+    box-shadow: white 2px 2px 22px;
+}
+.ab{
+    background-color: rgba(91, 88, 250, 0.142);
+    border-radius: 0 20px 0 0;
+    box-shadow: white 1px 1px 1px;
+}
+.ed{
+    background-color: #639bda48;
+    width: 120px;
+    box-shadow: white 1px 1px 12px;
+    border-radius: 2px;
+}
+.title{
+    font-size: 27px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-shadow: black 1px 1px 1px;
+}
+.main__main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.section{
+    width: 320px;
+    height: 200px;
+    margin-left: 50px;
+    background-color: rgba(141, 202, 255, 0.553);
+    border-radius: 20px;
+    background-color: aliceblue;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%239C92AC' fill-opacity='0.12' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.li__links{
+    background-color: rgba(67, 128, 227, 0.258);
+}
+.img__skills{
+    width: 112px;
+    height: 112px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.llb{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(0,212,255,1) 48%, rgba(9,9,121,1) 100%);
+    width: 240px;
+    box-shadow: black 1px 1px 1px;
+}
+.llc{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(0,212,255,1) 48%, rgba(9,9,121,1) 100%);
+    width: 290px;
+    box-shadow: black 1px 1px 1px;
+}
+.lld{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(0,212,255,1) 48%, rgba(9,9,121,1) 100%);
+    width: 290px;
+    box-shadow: black 1px 1px 1px;
+}
+.li__itemss{
+    text-shadow: black 1px 1px 1px;
+    font-size: 20px;
+}
+.li__itemss:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(0,212,255,1) 48%, rgba(9,9,121,1) 100%);
+    width: 290px;
+    box-shadow: black 1px 1px 1px;
+}
+.ul__skills{
+    display: flex;
+}
+.icons{
+    font-size: 30px;
+    margin-left: 3px;
+    color: aliceblue;
+    background-color: rgba(226, 62, 247, 0.596);
+    border-radius: 20px;
+}
+.section1{
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 100px;
+    background-color: #f9f9f900;
+background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%239C92AC' fill-opacity='0.12' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.sertificate{
+    margin-top: 10px;
+}
+.sert{
+    width: 300px;
+    height: 200px;
+    box-shadow: white 1px 1px 22px;
+    border-radius: 2px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.footer{
+    height: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(0,212,255,1) 48%, rgba(9,9,121,1) 100%);
+}
+.title__footer{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.m:hover{
+    background-image: url(img/award2.png);
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.m {
+    transition: 1s;
+}
+
+.hacker{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    margin-top: -30px;
+    box-shadow: rgba(255, 255, 255, 0.183) 1px 1px 21px;
+    border-radius: 100px;
+    transition: 1s;
+    
+}
+.hacker:hover{
+    box-shadow: white 1px 1px 22px;
+}
+
