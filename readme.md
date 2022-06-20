@@ -1,2 +1,2 @@
-not my Cv. Made Cv for L.G
+CV example
 https://maryyyat.github.io/notMyCv/
